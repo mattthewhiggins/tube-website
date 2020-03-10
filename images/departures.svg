@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="622px" height="853px" viewBox="0 0 622 853" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 4 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="532.5" height="763" rx="48"></rect>
+        <filter x="-12.7%" y="-8.8%" width="125.4%" height="117.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web---desktop" transform="translate(-902.000000, -3759.000000)">
+            <g id="Group-4-Copy" transform="translate(947.000000, 3804.000000)">
+                <g id="Rectangle-Copy-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F8F9FD" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-Copy" fill="#FFFFFF" x="26" y="162" width="480" height="272.896" rx="34.112"></rect>
+                <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="26" y="457.637333" width="480" height="272.896" rx="34.112"></rect>
+                <text id="Northbound---Platfor" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#8A8A8A">
+                    <tspan x="56" y="223.112">Northbound - Platform 1</tspan>
+                </text>
+                <text id="Southbound---Platfor" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#8A8A8A">
+                    <tspan x="56" y="518.749333">Southbound - Platform 2</tspan>
+                </text>
+                <text id="High-Barnet-via-Bank" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#0D141F">
+                    <tspan x="56" y="279.965333">High Barnet via Bank</tspan>
+                </text>
+                <text id="Morden-via-Bank" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#0D141F">
+                    <tspan x="56" y="575.602667">Morden via Bank</tspan>
+                </text>
+                <text id="35-sec" font-family="OpenSans-Bold, Open Sans" font-size="25.584" font-weight="bold" fill="#0C2BFF">
+                    <tspan x="399.160555" y="279.965333">35 sec</tspan>
+                </text>
+                <text id="Due" font-family="OpenSans-Bold, Open Sans" font-size="25.584" font-weight="bold" fill="#0C2BFF">
+                    <tspan x="425.030479" y="575.602667">Due</tspan>
+                </text>
+                <text id="Edgware-via-Bank" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#0D141F">
+                    <tspan x="56" y="336.818667">Edgware via Bank</tspan>
+                </text>
+                <text id="Morden-via-Bank" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#0D141F">
+                    <tspan x="56" y="632.456">Morden via Bank</tspan>
+                </text>
+                <text id="2-min" font-family="OpenSans-Bold, Open Sans" font-size="25.584" font-weight="bold" fill="#0C2BFF">
+                    <tspan x="405.113565" y="336.818667">2 min</tspan>
+                </text>
+                <text id="3-min" font-family="OpenSans-Bold, Open Sans" font-size="25.584" font-weight="bold" fill="#0C2BFF">
+                    <tspan x="405.006898" y="632.456">3 min</tspan>
+                </text>
+                <text id="High-Barnet-via-Bank" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#0D141F">
+                    <tspan x="56" y="393.672">High Barnet via Bank</tspan>
+                </text>
+                <text id="Morden-via-Bank" font-family="OpenSans-Regular, Open Sans" font-size="25.584" font-weight="normal" fill="#0D141F">
+                    <tspan x="56" y="689.309333">Morden via Bank</tspan>
+                </text>
+                <text id="4-min" font-family="OpenSans-Bold, Open Sans" font-size="25.584" font-weight="bold" fill="#0C2BFF">
+                    <tspan x="405.113565" y="393.672">4 min</tspan>
+                </text>
+                <text id="5-min" font-family="OpenSans-Bold, Open Sans" font-size="25.584" font-weight="bold" fill="#0C2BFF">
+                    <tspan x="405.006898" y="689.309333">5 min</tspan>
+                </text>
+                <path d="M48,0 L484.5,0 C511.009668,2.23568035e-15 532.5,21.490332 532.5,48 L532.5,139.5 L532.5,139.5 L0,139.5 L0,48 C-3.24649801e-15,21.490332 21.490332,4.86974701e-15 48,0 Z" id="Rectangle-Copy-9" fill="#007D32" fill-rule="nonzero"></path>
+                <text id="Barbican" font-family="OpenSans-Bold, Open Sans" font-size="27" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="206.514648" y="80">Barbican</tspan>
+                </text>
+                <g id="arrow" transform="translate(36.000000, 57.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M24.2419816,0.380692283 C23.7515402,-0.126897428 22.935281,-0.126897428 22.4276913,0.380692283 C21.9372499,0.871133693 21.9372499,1.68739282 22.4276913,2.17669101 L31.6271832,11.3761829 L1.2701175,11.3761829 C0.562464274,11.3773261 0,11.9397904 0,12.6474436 C0,13.3550969 0.562464274,13.9358527 1.2701175,13.9358527 L31.6271832,13.9358527 L22.4276913,23.1181963 C21.9372499,23.625786 21.9372499,24.4431883 22.4276913,24.9324865 C22.935281,25.4400762 23.7526834,25.4400762 24.2419816,24.9324865 L35.6193077,13.5551604 C36.1268974,13.064719 36.1268974,12.2484598 35.6193077,11.7591616 L24.2419816,0.380692283 Z" id="Path" transform="translate(18.000000, 12.656589) scale(-1, 1) translate(-18.000000, -12.656589) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

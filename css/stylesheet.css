@@ -1,0 +1,390 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* styling for page */
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  overflow-x: hidden; /* for homepage text, as it's off-screen */
+}
+
+
+
+/* smoothes out the scrolling on certain broswers */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* header styles */
+h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 800;
+}
+h4 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+
+/* makes images fit within div */
+img {
+    max-width: 100%;
+}
+
+hr {
+  margin: 0;
+  background-color: #DDE0E8;
+  height: 1px;
+  border: 0;
+}
+
+.image-full {
+   display:none;
+  }
+
+  .image-mobile {
+   display:block;
+  }
+
+/* makes content indented */
+.content-indented {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.width-left {
+  width: 50%;
+  background: lightcyan;
+  display: inline-block;
+  float:left;
+}
+
+.width-right {
+  width: 50%;
+  background: lightcyan;
+  display: inline-block;
+  float:left;
+}
+
+/* navigation bar */
+
+/* Style the navbar */
+.navbar {
+  overflow: hidden;
+  height: 100px;
+  background-color: #fff;
+  padding-top: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* makes items sticky */
+.sticky {
+  position: sticky;
+  top: 100px;
+  z-index: 1;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.navbar button {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0;
+  margin-left: 60px;
+}
+
+
+/* styling for portfolio button */
+.button-blue {
+  height: 50px;
+  width: 160px;
+  font-family: inherit;
+  font-weight: 700;
+  color: #ffffff;
+  background: #0C2BFF;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 0;
+
+  transition: color 0.3s ease; /* vendorless fallback */
+  -o-transition: color 0.3s ease; /* opera */
+  -ms-transition: color 0.3s ease; /* IE 10 */
+  -moz-transition: color 0.3s ease; /* Firefox */
+  -webkit-transition: color 0.3s ease; /*safari and chrome */
+
+  transition: background 0.3s ease; /* vendorless fallback */
+  -o-transition: background 0.3s ease; /* opera */
+  -ms-transition: background 0.3s ease; /* IE 10 */
+  -moz-transition: background 0.3s ease; /* Firefox */
+  -webkit-transition: background 0.3s ease; /*safari and chrome */
+}
+.button-blue:hover {
+  background: black;
+}
+.button-blue:focus {
+  outline: 0;
+}
+
+.button-white {
+  height: 48px;
+  font-family: inherit;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 0;
+
+  transition: color 0.3s ease; /* vendorless fallback */
+  -o-transition: color 0.3s ease; /* opera */
+  -ms-transition: color 0.3s ease; /* IE 10 */
+  -moz-transition: color 0.3s ease; /* Firefox */
+  -webkit-transition: color 0.3s ease; /*safari and chrome */
+
+  transition: background 0.3s ease; /* vendorless fallback */
+  -o-transition: background 0.3s ease; /* opera */
+  -ms-transition: background 0.3s ease; /* IE 10 */
+  -moz-transition: background 0.3s ease; /* Firefox */
+  -webkit-transition: background 0.3s ease; /*safari and chrome */
+}
+
+.button-white:hover {
+  color: #0C2BFF;
+}
+.button-white:focus {
+  outline: 0;
+}
+
+
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+}
+
+
+
+/* Desktop Code */
+
+@media only screen and (min-width: 50em) {  /* 800px */
+
+  /* makes content indented */
+  .content-indented {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 800;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+  }
+
+  .row {
+    position: relative;
+    width: 100%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-full{
+     display:block;
+    }
+
+   .image-mobile{
+    display:none;
+   }
+
+  .container {
+    margin-top: 24px;
+  }
+
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+  .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+}
