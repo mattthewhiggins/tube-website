@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="710px" height="976px" viewBox="0 0 710 976" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="537px" height="802px" viewBox="0 0 537 802" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>routes-2</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="532.5" height="798" rx="48"></rect>
-        <filter x="-26.8%" y="-16.0%" width="153.5%" height="135.7%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="45" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.917647059   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
     <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="web---desktop" transform="translate(-858.000000, -1959.000000)">
+        <g id="web---desktop" transform="translate(-945.000000, -2031.000000)">
             <g id="routes-2" transform="translate(947.000000, 2033.000000)">
-                <g id="Rectangle-Copy-4">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                </g>
+                <rect id="Rectangle-Copy-4" stroke="#F8F9FD" stroke-width="2" fill="#FFFFFF" x="-1" y="-1" width="534.5" height="800" rx="48"></rect>
                 <rect id="Rectangle" fill="#0098D8" x="45" y="394.5" width="6" height="150"></rect>
                 <rect id="Rectangle-Copy" fill="#E41F1F" x="45" y="564" width="6" height="150"></rect>
                 <path d="M53.5475615,467.419269 L45.5807314,459.464294 C45.2873376,459.154722 44.9209698,459 44.4809005,459 C44.0408312,459 43.6744634,459.154893 43.3810696,459.464294 L42.4523957,460.380898 C42.1509127,460.682339 42.0001712,461.048749 42.0001712,461.480515 C42.0001712,461.904107 42.1508699,462.274883 42.4523957,462.592501 L48.3910206,468.519142 L42.4521389,474.457981 C42.1507415,474.759421 42,475.125832 42,475.557641 C42,475.981189 42.1506987,476.352094 42.4521389,476.669584 L43.3808984,477.58606 C43.6823386,477.8875 44.0490916,478.038199 44.4807293,478.038199 C44.9125383,478.038199 45.2792056,477.8875 45.5805602,477.58606 L53.5475615,469.631086 C53.8491301,469.313381 54,468.942691 54,468.519099 C54,468.087333 53.8491301,467.720709 53.5475615,467.419269 Z" id="Path-Copy-6" fill="#0098D8" fill-rule="nonzero" transform="translate(48.000000, 468.519099) rotate(90.000000) translate(-48.000000, -468.519099) "></path>

@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="710px" height="778px" viewBox="0 0 710 778" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="537px" height="604px" viewBox="0 0 537 604" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>routes</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="532.5" height="600" rx="48"></rect>
-        <filter x="-26.8%" y="-21.2%" width="153.5%" height="147.5%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="45" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.917647059   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
     <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="web---desktop" transform="translate(-44.000000, -1166.000000)">
+        <g id="web---desktop" transform="translate(-131.000000, -1238.000000)">
             <g id="routes" transform="translate(133.000000, 1240.000000)">
-                <g id="Rectangle-Copy-6">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                </g>
+                <rect id="Rectangle-Copy-6" stroke="#F8F9FD" stroke-width="2" fill="#FFFFFF" x="-1" y="-1" width="534.5" height="602" rx="48"></rect>
                 <g id="Group-2" transform="translate(396.000000, 340.500000)"></g>
                 <rect id="Rectangle" fill="#0C2BFF" x="382.5" y="334.5" width="90" height="45" rx="7.5"></rect>
                 <g id="Group-3" transform="translate(382.500000, 459.000000)" fill="#0C2BFF">
@@ -25,9 +14,6 @@
                 </g>
                 <text id="12:03-–-12:34" font-family="OpenSans-Regular, Open Sans" font-size="27" font-weight="normal" fill="#0D141F">
                     <tspan x="24" y="368">12:03 – 12:34 </tspan>
-                </text>
-                <text id="12:03-–-12:48" font-family="OpenSans-Regular, Open Sans" font-size="27" font-weight="normal" fill="#0D141F">
-                    <tspan x="24" y="552.5">12:03 – 12:48</tspan>
                 </text>
                 <path d="M95.5475615,291.919269 L87.5807314,283.964294 C87.2873376,283.654722 86.9209698,283.5 86.4809005,283.5 C86.0408312,283.5 85.6744634,283.654893 85.3810696,283.964294 L84.4523957,284.880898 C84.1509127,285.182339 84.0001712,285.548749 84.0001712,285.980515 C84.0001712,286.404107 84.1508699,286.774883 84.4523957,287.092501 L90.3910206,293.019142 L84.4521389,298.957981 C84.1507415,299.259421 84,299.625832 84,300.057641 C84,300.481189 84.1506987,300.852094 84.4521389,301.169584 L85.3808984,302.08606 C85.6823386,302.3875 86.0490916,302.538199 86.4807293,302.538199 C86.9125383,302.538199 87.2792056,302.3875 87.5805602,302.08606 L95.5475615,294.131086 C95.8491301,293.813381 96,293.442691 96,293.019099 C96,292.587333 95.8491301,292.220709 95.5475615,291.919269 Z" id="Path-Copy-7" fill="#DDE0E8" fill-rule="nonzero"></path>
                 <path d="M508.047561,356.419269 L500.080731,348.464294 C499.787338,348.154722 499.42097,348 498.980901,348 C498.540831,348 498.174463,348.154893 497.88107,348.464294 L496.952396,349.380898 C496.650913,349.682339 496.500171,350.048749 496.500171,350.480515 C496.500171,350.904107 496.65087,351.274883 496.952396,351.592501 L502.891021,357.519142 L496.952139,363.457981 C496.650742,363.759421 496.5,364.125832 496.5,364.557641 C496.5,364.981189 496.650699,365.352094 496.952139,365.669584 L497.880898,366.58606 C498.182339,366.8875 498.549092,367.038199 498.980729,367.038199 C499.412538,367.038199 499.779206,366.8875 500.08056,366.58606 L508.047561,358.631086 C508.34913,358.313381 508.5,357.942691 508.5,357.519099 C508.5,357.087333 508.34913,356.720709 508.047561,356.419269 Z" id="Path-Copy-8" fill="#0C2BFF" fill-rule="nonzero"></path>
