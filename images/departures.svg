@@ -8,7 +8,7 @@
         <filter x="-26.8%" y="-16.7%" width="153.5%" height="137.4%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="45" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.917647059   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0.721367979   0 0 0 0 0.778010434   0 0 0 0 0.819548234  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
