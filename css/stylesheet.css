@@ -180,8 +180,6 @@ hr {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .row {
@@ -330,7 +328,8 @@ hr {
    }
 
   .container {
-    margin-top: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .col-1 {
